@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+}
+#bands{
+    position: absolute;
+    top: 0;
+    left: 200px;
+    background-color: white;
+    list-style-type: square;
+    width: 300px;
+    font-size: 25px;
+    /* border: 10px solid orange; */
+    /* border-opactiy: 0.8; */
+    /* background-clip: padding-box; */
+}
+
+ul li{
+    height: 45px;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 10px;
+}
